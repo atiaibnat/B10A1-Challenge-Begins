@@ -152,3 +152,60 @@ width: 459px;
     padding: 30px 20px;
     text-align: justify;
 }
+/* .........section 04 - I need support....... */
+.need-support{
+    margin: 5px 5px; 
+    padding: 0px 78px;
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    border-radius: 16px;
+}
+.support-image{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #cccccc; 
+    height: 500px; 
+    width: 100%;
+    background-position: center;
+    color: azure;
+    background-image: url('../assets/handshake.jpg');
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+#support-head{
+        color: white;
+        font-weight: 500;
+        font-size: 60px;
+        margin-bottom: 5px;  
+}
+.support-description{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Azeret Mono;
+}
+.support-form{
+    display: flex;
+    gap: 20px;
+    font-family: Azeret Mono;
+}
+.feedback,input[type="text"]{
+    width: 100%;
+    border-radius: 8px;
+    border: 0;
+    padding: 20px 400px 20px 15px;   
+}
+.btn-primary{
+    border: 0;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    padding: 18px 35px;
+    border-radius: 8px;
+    background-color: white;
+ }
