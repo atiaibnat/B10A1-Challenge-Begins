@@ -97,5 +97,27 @@ text-align: center;
 height: 417px;
 width: 459px;
 }
-
-     
+/* .........section 02 - my inspiration........... */
+.inspiration{
+    margin-top: 100px;
+    text-align: center;
+    height: 750px;  
+}
+#inspiration-content p{
+    padding-bottom: 50px;
+}
+#video{
+    border: 10px solid;
+    padding-top: 45px;
+    height: 650px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+#video iframe{
+    width: 90%;
+    height: 90%;
+    border-radius: 16px;
+    background: url(../assets/jhankar.jpg);
+   
+}
